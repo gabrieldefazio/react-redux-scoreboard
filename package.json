@@ -5,14 +5,14 @@
   "main": "src/index.js",
   "scripts": {
     "prestart": "npm run lint",
+    "deploy": "script/deploy",
     "start": "webpack-dev-server --progress --inline --hot",
     "lint": "eslint ./src/**/*.{js, jsx} --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
-    "redux",
-    "treehouse"
+    "redux"
   ],
   "author": "Beau Palmquist",
   "license": "MIT",
